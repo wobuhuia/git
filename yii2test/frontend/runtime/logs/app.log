@@ -1,0 +1,1935 @@
+2017-12-04 02:03:40 [127.0.0.1][-][icpsdn6ilk8ms84rh2rbo730o2][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\web\Controller.php:166
+Stack trace:
+#0 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('register', Array)
+#2 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('register/regist...', Array)
+#3 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\phpStudy\WWW\12\yii2test\frontend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2017-12-04 02:03:40 [127.0.0.1][-][icpsdn6ilk8ms84rh2rbo730o2][info][application] $_GET = [
+    'r' => 'register/register'
+]
+
+$_POST = [
+    'phone' => '15237123373'
+    'password' => '123'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'icpsdn6ilk8ms84rh2rbo730o2'
+    '_csrf-frontend' => 'c554924e6b0211225a9e957879c755c11be750398a2cf073ebddc5d3396ebf58a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"lwa1_-dR1UIw2eihptq9tYxrspFVpa-N\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'D:\\wamp\\PHP5.3\\;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\WINDOWS\\SYSTEM32;C:\\WINDOWS;C:\\WINDOWS\\SYSTEM32\\WBEM;C:\\WINDOWS\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\ATI TECHNOLOGIES\\ATI.ACE\\CORE-STATIC;C:\\PROGRAM FILES (X86)\\COMMON FILES\\LENOVO\\EASYPLUSSDK\\BIN;C:\\PROGRAM FILES (X86)\\LENOVO\\LENOVO HOME\\;C:\\PROGRAM FILES (X86)\\SKYPE\\PHONE\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;D:\\wamp\\MySQL\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\svn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\ComposerSetup;D:\\Git\\cmd;D:\\phpStudy\\php\\php-5.5.38\\'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2064'
+    'SCRIPT_NAME' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_URI' => '/12/yii2test/frontend/web/index.php?r=register%2Fregister'
+    'QUERY_STRING' => 'r=register%2Fregister'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '4501'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/12/yii2test/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'advanced-frontend=icpsdn6ilk8ms84rh2rbo730o2; _csrf-frontend=c554924e6b0211225a9e957879c755c11be750398a2cf073ebddc5d3396ebf58a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22lwa1_-dR1UIw2eihptq9tYxrspFVpa-N%22%3B%7D'
+    'CONTENT_LENGTH' => '30'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://127.0.0.1/12/yii2test/frontend/web/index.php?r=register%2Fregister'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1512353020.1755
+    'REQUEST_TIME' => 1512353020
+]
+2017-12-04 02:04:33 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\web\Controller.php:166
+Stack trace:
+#0 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('register', Array)
+#2 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('register/regist...', Array)
+#3 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\phpStudy\WWW\12\yii2test\frontend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2017-12-04 02:04:33 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][info][application] $_GET = [
+    'r' => 'register/register'
+]
+
+$_POST = [
+    'phone' => ''
+    'password' => ''
+]
+
+$_COOKIE = [
+    'UM_distinctid' => '15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170'
+    'CNZZDATA1585378' => 'cnzz_eid=976228791-1508758951-&ntime=1508758951'
+    'CNZZDATA5488951' => 'cnzz_eid=2130234061-1508756853-&ntime=1508756853'
+    'Hm_lvt_b88cfc1ccab788f0903cac38c894caa3' => '1508760764'
+    'pgv_pvid' => '6063116993'
+    'CNZZDATA155540' => 'cnzz_eid=1250492819-1510970845-http%3A%2F%2F127.0.0.1%2F&ntime=1510981648'
+    'advanced-frontend' => '3t44jba75pj3304qkpjik4nas3'
+    '_csrf-frontend' => 'f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'D:\\wamp\\PHP5.3\\;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\WINDOWS\\SYSTEM32;C:\\WINDOWS;C:\\WINDOWS\\SYSTEM32\\WBEM;C:\\WINDOWS\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\ATI TECHNOLOGIES\\ATI.ACE\\CORE-STATIC;C:\\PROGRAM FILES (X86)\\COMMON FILES\\LENOVO\\EASYPLUSSDK\\BIN;C:\\PROGRAM FILES (X86)\\LENOVO\\LENOVO HOME\\;C:\\PROGRAM FILES (X86)\\SKYPE\\PHONE\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;D:\\wamp\\MySQL\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\svn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\ComposerSetup;D:\\Git\\cmd;D:\\phpStudy\\php\\php-5.5.38\\'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2064'
+    'SCRIPT_NAME' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_URI' => '/12/yii2test/frontend/web/index.php?r=register%2Fregister'
+    'QUERY_STRING' => 'r=register%2Fregister'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '4527'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/12/yii2test/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'UM_distinctid=15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170; CNZZDATA1585378=cnzz_eid%3D976228791-1508758951-%26ntime%3D1508758951; CNZZDATA5488951=cnzz_eid%3D2130234061-1508756853-%26ntime%3D1508756853; Hm_lvt_b88cfc1ccab788f0903cac38c894caa3=1508760764; pgv_pvid=6063116993; CNZZDATA155540=cnzz_eid%3D1250492819-1510970845-http%253A%252F%252F127.0.0.1%252F%26ntime%3D1510981648; advanced-frontend=3t44jba75pj3304qkpjik4nas3; _csrf-frontend=f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://127.0.0.1/12/yii2test/frontend/web/index.php?r=register%2Fregister'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://127.0.0.1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1512353073.6425
+    'REQUEST_TIME' => 1512353073
+]
+2017-12-04 02:05:41 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\web\Controller.php:166
+Stack trace:
+#0 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('register', Array)
+#2 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('register/regist...', Array)
+#3 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\phpStudy\WWW\12\yii2test\frontend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2017-12-04 02:05:41 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][info][application] $_GET = [
+    'r' => 'register/register'
+]
+
+$_POST = [
+    'phone' => ''
+    'password' => ''
+]
+
+$_COOKIE = [
+    'UM_distinctid' => '15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170'
+    'CNZZDATA1585378' => 'cnzz_eid=976228791-1508758951-&ntime=1508758951'
+    'CNZZDATA5488951' => 'cnzz_eid=2130234061-1508756853-&ntime=1508756853'
+    'Hm_lvt_b88cfc1ccab788f0903cac38c894caa3' => '1508760764'
+    'pgv_pvid' => '6063116993'
+    'CNZZDATA155540' => 'cnzz_eid=1250492819-1510970845-http%3A%2F%2F127.0.0.1%2F&ntime=1510981648'
+    'advanced-frontend' => '3t44jba75pj3304qkpjik4nas3'
+    '_csrf-frontend' => 'f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'D:\\wamp\\PHP5.3\\;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\WINDOWS\\SYSTEM32;C:\\WINDOWS;C:\\WINDOWS\\SYSTEM32\\WBEM;C:\\WINDOWS\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\ATI TECHNOLOGIES\\ATI.ACE\\CORE-STATIC;C:\\PROGRAM FILES (X86)\\COMMON FILES\\LENOVO\\EASYPLUSSDK\\BIN;C:\\PROGRAM FILES (X86)\\LENOVO\\LENOVO HOME\\;C:\\PROGRAM FILES (X86)\\SKYPE\\PHONE\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;D:\\wamp\\MySQL\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\svn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\ComposerSetup;D:\\Git\\cmd;D:\\phpStudy\\php\\php-5.5.38\\'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2064'
+    'SCRIPT_NAME' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_URI' => '/12/yii2test/frontend/web/index.php?r=register%2Fregister'
+    'QUERY_STRING' => 'r=register%2Fregister'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '4545'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/12/yii2test/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'UM_distinctid=15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170; CNZZDATA1585378=cnzz_eid%3D976228791-1508758951-%26ntime%3D1508758951; CNZZDATA5488951=cnzz_eid%3D2130234061-1508756853-%26ntime%3D1508756853; Hm_lvt_b88cfc1ccab788f0903cac38c894caa3=1508760764; pgv_pvid=6063116993; CNZZDATA155540=cnzz_eid%3D1250492819-1510970845-http%253A%252F%252F127.0.0.1%252F%26ntime%3D1510981648; advanced-frontend=3t44jba75pj3304qkpjik4nas3; _csrf-frontend=f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://127.0.0.1/12/yii2test/frontend/web/index.php?r=register%2Fregister'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://127.0.0.1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1512353141.5418
+    'REQUEST_TIME' => 1512353141
+]
+2017-12-04 02:08:41 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][error][yii\base\ViewNotFoundException] exception 'yii\base\ViewNotFoundException' with message 'The view file does not exist: D:\phpStudy\WWW\12\yii2test\frontend\views\register\register2.php' in D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\View.php:229
+Stack trace:
+#0 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\phpStudy\\WWW...', Array, Object(frontend\controllers\RegisterController))
+#1 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('register2', Array, Object(frontend\controllers\RegisterController))
+#2 D:\phpStudy\WWW\12\yii2test\frontend\controllers\RegisterController.php(45): yii\base\Controller->render('register2', Array)
+#3 [internal function]: frontend\controllers\RegisterController->actionRegister2()
+#4 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('register2', Array)
+#7 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('register/regist...', Array)
+#8 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\phpStudy\WWW\12\yii2test\frontend\web\index.php(17): yii\base\Application->run()
+#10 {main}
+2017-12-04 02:08:41 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][info][application] $_GET = [
+    'r' => 'register/register2'
+]
+
+$_COOKIE = [
+    'UM_distinctid' => '15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170'
+    'CNZZDATA1585378' => 'cnzz_eid=976228791-1508758951-&ntime=1508758951'
+    'CNZZDATA5488951' => 'cnzz_eid=2130234061-1508756853-&ntime=1508756853'
+    'Hm_lvt_b88cfc1ccab788f0903cac38c894caa3' => '1508760764'
+    'pgv_pvid' => '6063116993'
+    'CNZZDATA155540' => 'cnzz_eid=1250492819-1510970845-http%3A%2F%2F127.0.0.1%2F&ntime=1510981648'
+    'advanced-frontend' => '3t44jba75pj3304qkpjik4nas3'
+    '_csrf-frontend' => 'f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'D:\\wamp\\PHP5.3\\;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\WINDOWS\\SYSTEM32;C:\\WINDOWS;C:\\WINDOWS\\SYSTEM32\\WBEM;C:\\WINDOWS\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\ATI TECHNOLOGIES\\ATI.ACE\\CORE-STATIC;C:\\PROGRAM FILES (X86)\\COMMON FILES\\LENOVO\\EASYPLUSSDK\\BIN;C:\\PROGRAM FILES (X86)\\LENOVO\\LENOVO HOME\\;C:\\PROGRAM FILES (X86)\\SKYPE\\PHONE\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;D:\\wamp\\MySQL\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\svn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\ComposerSetup;D:\\Git\\cmd;D:\\phpStudy\\php\\php-5.5.38\\'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2160'
+    'SCRIPT_NAME' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_URI' => '/12/yii2test/frontend/web/index.php?r=register%2Fregister2'
+    'QUERY_STRING' => 'r=register%2Fregister2'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '4619'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/12/yii2test/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'UM_distinctid=15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170; CNZZDATA1585378=cnzz_eid%3D976228791-1508758951-%26ntime%3D1508758951; CNZZDATA5488951=cnzz_eid%3D2130234061-1508756853-%26ntime%3D1508756853; Hm_lvt_b88cfc1ccab788f0903cac38c894caa3=1508760764; pgv_pvid=6063116993; CNZZDATA155540=cnzz_eid%3D1250492819-1510970845-http%253A%252F%252F127.0.0.1%252F%26ntime%3D1510981648; advanced-frontend=3t44jba75pj3304qkpjik4nas3; _csrf-frontend=f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://127.0.0.1/12/yii2test/frontend/web/index.php?r=register%2Fregister'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1512353321.465
+    'REQUEST_TIME' => 1512353321
+]
+2017-12-04 02:08:58 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][error][yii\base\ViewNotFoundException] exception 'yii\base\ViewNotFoundException' with message 'The view file does not exist: D:\phpStudy\WWW\12\yii2test\frontend\views\register\register2.php' in D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\View.php:229
+Stack trace:
+#0 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\phpStudy\\WWW...', Array, Object(frontend\controllers\RegisterController))
+#1 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('register2', Array, Object(frontend\controllers\RegisterController))
+#2 D:\phpStudy\WWW\12\yii2test\frontend\controllers\RegisterController.php(45): yii\base\Controller->render('register2', Array)
+#3 [internal function]: frontend\controllers\RegisterController->actionRegister2()
+#4 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('register2', Array)
+#7 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('register/regist...', Array)
+#8 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\phpStudy\WWW\12\yii2test\frontend\web\index.php(17): yii\base\Application->run()
+#10 {main}
+2017-12-04 02:08:58 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][info][application] $_GET = [
+    'r' => 'register/register2'
+]
+
+$_COOKIE = [
+    'UM_distinctid' => '15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170'
+    'CNZZDATA1585378' => 'cnzz_eid=976228791-1508758951-&ntime=1508758951'
+    'CNZZDATA5488951' => 'cnzz_eid=2130234061-1508756853-&ntime=1508756853'
+    'Hm_lvt_b88cfc1ccab788f0903cac38c894caa3' => '1508760764'
+    'pgv_pvid' => '6063116993'
+    'CNZZDATA155540' => 'cnzz_eid=1250492819-1510970845-http%3A%2F%2F127.0.0.1%2F&ntime=1510981648'
+    'advanced-frontend' => '3t44jba75pj3304qkpjik4nas3'
+    '_csrf-frontend' => 'f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'D:\\wamp\\PHP5.3\\;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\WINDOWS\\SYSTEM32;C:\\WINDOWS;C:\\WINDOWS\\SYSTEM32\\WBEM;C:\\WINDOWS\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\ATI TECHNOLOGIES\\ATI.ACE\\CORE-STATIC;C:\\PROGRAM FILES (X86)\\COMMON FILES\\LENOVO\\EASYPLUSSDK\\BIN;C:\\PROGRAM FILES (X86)\\LENOVO\\LENOVO HOME\\;C:\\PROGRAM FILES (X86)\\SKYPE\\PHONE\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;D:\\wamp\\MySQL\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\svn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\ComposerSetup;D:\\Git\\cmd;D:\\phpStudy\\php\\php-5.5.38\\'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2160'
+    'SCRIPT_NAME' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_URI' => '/12/yii2test/frontend/web/index.php?r=register%2Fregister2'
+    'QUERY_STRING' => 'r=register%2Fregister2'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '4624'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/12/yii2test/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'UM_distinctid=15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170; CNZZDATA1585378=cnzz_eid%3D976228791-1508758951-%26ntime%3D1508758951; CNZZDATA5488951=cnzz_eid%3D2130234061-1508756853-%26ntime%3D1508756853; Hm_lvt_b88cfc1ccab788f0903cac38c894caa3=1508760764; pgv_pvid=6063116993; CNZZDATA155540=cnzz_eid%3D1250492819-1510970845-http%253A%252F%252F127.0.0.1%252F%26ntime%3D1510981648; advanced-frontend=3t44jba75pj3304qkpjik4nas3; _csrf-frontend=f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://127.0.0.1/12/yii2test/frontend/web/index.php?r=register%2Fregister'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1512353337.9912
+    'REQUEST_TIME' => 1512353337
+]
+2017-12-04 02:10:13 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][error][yii\base\ViewNotFoundException] exception 'yii\base\ViewNotFoundException' with message 'The view file does not exist: D:\phpStudy\WWW\12\yii2test\frontend\views\register\register2.php' in D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\View.php:229
+Stack trace:
+#0 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\phpStudy\\WWW...', Array, Object(frontend\controllers\RegisterController))
+#1 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('register2', Array, Object(frontend\controllers\RegisterController))
+#2 D:\phpStudy\WWW\12\yii2test\frontend\controllers\RegisterController.php(47): yii\base\Controller->render('register2', Array)
+#3 [internal function]: frontend\controllers\RegisterController->actionRegister2()
+#4 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('register2', Array)
+#7 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('register/regist...', Array)
+#8 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\phpStudy\WWW\12\yii2test\frontend\web\index.php(17): yii\base\Application->run()
+#10 {main}
+2017-12-04 02:10:13 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][info][application] $_GET = [
+    'r' => 'register/register2'
+]
+
+$_COOKIE = [
+    'UM_distinctid' => '15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170'
+    'CNZZDATA1585378' => 'cnzz_eid=976228791-1508758951-&ntime=1508758951'
+    'CNZZDATA5488951' => 'cnzz_eid=2130234061-1508756853-&ntime=1508756853'
+    'Hm_lvt_b88cfc1ccab788f0903cac38c894caa3' => '1508760764'
+    'pgv_pvid' => '6063116993'
+    'CNZZDATA155540' => 'cnzz_eid=1250492819-1510970845-http%3A%2F%2F127.0.0.1%2F&ntime=1510981648'
+    'advanced-frontend' => '3t44jba75pj3304qkpjik4nas3'
+    '_csrf-frontend' => 'f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'D:\\wamp\\PHP5.3\\;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\WINDOWS\\SYSTEM32;C:\\WINDOWS;C:\\WINDOWS\\SYSTEM32\\WBEM;C:\\WINDOWS\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\ATI TECHNOLOGIES\\ATI.ACE\\CORE-STATIC;C:\\PROGRAM FILES (X86)\\COMMON FILES\\LENOVO\\EASYPLUSSDK\\BIN;C:\\PROGRAM FILES (X86)\\LENOVO\\LENOVO HOME\\;C:\\PROGRAM FILES (X86)\\SKYPE\\PHONE\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;D:\\wamp\\MySQL\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\svn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\ComposerSetup;D:\\Git\\cmd;D:\\phpStudy\\php\\php-5.5.38\\'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2160'
+    'SCRIPT_NAME' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_URI' => '/12/yii2test/frontend/web/index.php?r=register%2Fregister2'
+    'QUERY_STRING' => 'r=register%2Fregister2'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '4638'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/12/yii2test/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'UM_distinctid=15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170; CNZZDATA1585378=cnzz_eid%3D976228791-1508758951-%26ntime%3D1508758951; CNZZDATA5488951=cnzz_eid%3D2130234061-1508756853-%26ntime%3D1508756853; Hm_lvt_b88cfc1ccab788f0903cac38c894caa3=1508760764; pgv_pvid=6063116993; CNZZDATA155540=cnzz_eid%3D1250492819-1510970845-http%253A%252F%252F127.0.0.1%252F%26ntime%3D1510981648; advanced-frontend=3t44jba75pj3304qkpjik4nas3; _csrf-frontend=f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://127.0.0.1/12/yii2test/frontend/web/index.php?r=register%2Fregister'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1512353413.5373
+    'REQUEST_TIME' => 1512353413
+]
+2017-12-04 02:11:29 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][error][yii\base\ViewNotFoundException] exception 'yii\base\ViewNotFoundException' with message 'The view file does not exist: D:\phpStudy\WWW\12\yii2test\frontend\views\register\register2.php' in D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\View.php:229
+Stack trace:
+#0 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\phpStudy\\WWW...', Array, Object(frontend\controllers\RegisterController))
+#1 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('register2', Array, Object(frontend\controllers\RegisterController))
+#2 D:\phpStudy\WWW\12\yii2test\frontend\controllers\RegisterController.php(48): yii\base\Controller->render('register2', Array)
+#3 [internal function]: frontend\controllers\RegisterController->actionRegister2()
+#4 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('register2', Array)
+#7 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('register/regist...', Array)
+#8 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\phpStudy\WWW\12\yii2test\frontend\web\index.php(17): yii\base\Application->run()
+#10 {main}
+2017-12-04 02:11:29 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][info][application] $_GET = [
+    'r' => 'register/register2'
+]
+
+$_COOKIE = [
+    'UM_distinctid' => '15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170'
+    'CNZZDATA1585378' => 'cnzz_eid=976228791-1508758951-&ntime=1508758951'
+    'CNZZDATA5488951' => 'cnzz_eid=2130234061-1508756853-&ntime=1508756853'
+    'Hm_lvt_b88cfc1ccab788f0903cac38c894caa3' => '1508760764'
+    'pgv_pvid' => '6063116993'
+    'CNZZDATA155540' => 'cnzz_eid=1250492819-1510970845-http%3A%2F%2F127.0.0.1%2F&ntime=1510981648'
+    'advanced-frontend' => '3t44jba75pj3304qkpjik4nas3'
+    '_csrf-frontend' => 'f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'D:\\wamp\\PHP5.3\\;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\WINDOWS\\SYSTEM32;C:\\WINDOWS;C:\\WINDOWS\\SYSTEM32\\WBEM;C:\\WINDOWS\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\ATI TECHNOLOGIES\\ATI.ACE\\CORE-STATIC;C:\\PROGRAM FILES (X86)\\COMMON FILES\\LENOVO\\EASYPLUSSDK\\BIN;C:\\PROGRAM FILES (X86)\\LENOVO\\LENOVO HOME\\;C:\\PROGRAM FILES (X86)\\SKYPE\\PHONE\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;D:\\wamp\\MySQL\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\svn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\ComposerSetup;D:\\Git\\cmd;D:\\phpStudy\\php\\php-5.5.38\\'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2160'
+    'SCRIPT_NAME' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_URI' => '/12/yii2test/frontend/web/index.php?r=register%2Fregister2'
+    'QUERY_STRING' => 'r=register%2Fregister2'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '4653'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/12/yii2test/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'UM_distinctid=15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170; CNZZDATA1585378=cnzz_eid%3D976228791-1508758951-%26ntime%3D1508758951; CNZZDATA5488951=cnzz_eid%3D2130234061-1508756853-%26ntime%3D1508756853; Hm_lvt_b88cfc1ccab788f0903cac38c894caa3=1508760764; pgv_pvid=6063116993; CNZZDATA155540=cnzz_eid%3D1250492819-1510970845-http%253A%252F%252F127.0.0.1%252F%26ntime%3D1510981648; advanced-frontend=3t44jba75pj3304qkpjik4nas3; _csrf-frontend=f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://127.0.0.1/12/yii2test/frontend/web/index.php?r=register%2Fregister'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1512353489.127
+    'REQUEST_TIME' => 1512353489
+]
+2017-12-04 02:12:27 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][error][yii\base\ViewNotFoundException] exception 'yii\base\ViewNotFoundException' with message 'The view file does not exist: D:\phpStudy\WWW\12\yii2test\frontend\views\register\register2.php' in D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\View.php:229
+Stack trace:
+#0 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\phpStudy\\WWW...', Array, Object(frontend\controllers\RegisterController))
+#1 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('register2', Array, Object(frontend\controllers\RegisterController))
+#2 D:\phpStudy\WWW\12\yii2test\frontend\controllers\RegisterController.php(46): yii\base\Controller->render('register2', Array)
+#3 [internal function]: frontend\controllers\RegisterController->actionRegister2()
+#4 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('register2', Array)
+#7 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('register/regist...', Array)
+#8 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\phpStudy\WWW\12\yii2test\frontend\web\index.php(17): yii\base\Application->run()
+#10 {main}
+2017-12-04 02:12:27 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][info][application] $_GET = [
+    'r' => 'register/register2'
+]
+
+$_COOKIE = [
+    'UM_distinctid' => '15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170'
+    'CNZZDATA1585378' => 'cnzz_eid=976228791-1508758951-&ntime=1508758951'
+    'CNZZDATA5488951' => 'cnzz_eid=2130234061-1508756853-&ntime=1508756853'
+    'Hm_lvt_b88cfc1ccab788f0903cac38c894caa3' => '1508760764'
+    'pgv_pvid' => '6063116993'
+    'CNZZDATA155540' => 'cnzz_eid=1250492819-1510970845-http%3A%2F%2F127.0.0.1%2F&ntime=1510981648'
+    'advanced-frontend' => '3t44jba75pj3304qkpjik4nas3'
+    '_csrf-frontend' => 'f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'D:\\wamp\\PHP5.3\\;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\WINDOWS\\SYSTEM32;C:\\WINDOWS;C:\\WINDOWS\\SYSTEM32\\WBEM;C:\\WINDOWS\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\ATI TECHNOLOGIES\\ATI.ACE\\CORE-STATIC;C:\\PROGRAM FILES (X86)\\COMMON FILES\\LENOVO\\EASYPLUSSDK\\BIN;C:\\PROGRAM FILES (X86)\\LENOVO\\LENOVO HOME\\;C:\\PROGRAM FILES (X86)\\SKYPE\\PHONE\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;D:\\wamp\\MySQL\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\svn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\ComposerSetup;D:\\Git\\cmd;D:\\phpStudy\\php\\php-5.5.38\\'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2160'
+    'SCRIPT_NAME' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_URI' => '/12/yii2test/frontend/web/index.php?r=register%2Fregister2'
+    'QUERY_STRING' => 'r=register%2Fregister2'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '4669'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/12/yii2test/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'UM_distinctid=15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170; CNZZDATA1585378=cnzz_eid%3D976228791-1508758951-%26ntime%3D1508758951; CNZZDATA5488951=cnzz_eid%3D2130234061-1508756853-%26ntime%3D1508756853; Hm_lvt_b88cfc1ccab788f0903cac38c894caa3=1508760764; pgv_pvid=6063116993; CNZZDATA155540=cnzz_eid%3D1250492819-1510970845-http%253A%252F%252F127.0.0.1%252F%26ntime%3D1510981648; advanced-frontend=3t44jba75pj3304qkpjik4nas3; _csrf-frontend=f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://127.0.0.1/12/yii2test/frontend/web/index.php?r=register%2Fregister'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1512353547.2699
+    'REQUEST_TIME' => 1512353547
+]
+2017-12-04 02:16:48 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\web\Controller.php:166
+Stack trace:
+#0 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('register2', Array)
+#2 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('register/regist...', Array)
+#3 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\phpStudy\WWW\12\yii2test\frontend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2017-12-04 02:16:48 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][info][application] $_GET = [
+    'r' => 'register/register2'
+]
+
+$_POST = [
+    'username' => '小谷'
+    'date' => '19971113'
+    'address' => '八维'
+]
+
+$_COOKIE = [
+    'UM_distinctid' => '15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170'
+    'CNZZDATA1585378' => 'cnzz_eid=976228791-1508758951-&ntime=1508758951'
+    'CNZZDATA5488951' => 'cnzz_eid=2130234061-1508756853-&ntime=1508756853'
+    'Hm_lvt_b88cfc1ccab788f0903cac38c894caa3' => '1508760764'
+    'pgv_pvid' => '6063116993'
+    'CNZZDATA155540' => 'cnzz_eid=1250492819-1510970845-http%3A%2F%2F127.0.0.1%2F&ntime=1510981648'
+    'advanced-frontend' => '3t44jba75pj3304qkpjik4nas3'
+    '_csrf-frontend' => 'f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'D:\\wamp\\PHP5.3\\;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\WINDOWS\\SYSTEM32;C:\\WINDOWS;C:\\WINDOWS\\SYSTEM32\\WBEM;C:\\WINDOWS\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\ATI TECHNOLOGIES\\ATI.ACE\\CORE-STATIC;C:\\PROGRAM FILES (X86)\\COMMON FILES\\LENOVO\\EASYPLUSSDK\\BIN;C:\\PROGRAM FILES (X86)\\LENOVO\\LENOVO HOME\\;C:\\PROGRAM FILES (X86)\\SKYPE\\PHONE\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;D:\\wamp\\MySQL\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\svn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\ComposerSetup;D:\\Git\\cmd;D:\\phpStudy\\php\\php-5.5.38\\'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2016'
+    'SCRIPT_NAME' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_URI' => '/12/yii2test/frontend/web/index.php?r=register%2Fregister2'
+    'QUERY_STRING' => 'r=register%2Fregister2'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '4742'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/12/yii2test/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'UM_distinctid=15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170; CNZZDATA1585378=cnzz_eid%3D976228791-1508758951-%26ntime%3D1508758951; CNZZDATA5488951=cnzz_eid%3D2130234061-1508756853-%26ntime%3D1508756853; Hm_lvt_b88cfc1ccab788f0903cac38c894caa3=1508760764; pgv_pvid=6063116993; CNZZDATA155540=cnzz_eid%3D1250492819-1510970845-http%253A%252F%252F127.0.0.1%252F%26ntime%3D1510981648; advanced-frontend=3t44jba75pj3304qkpjik4nas3; _csrf-frontend=f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://127.0.0.1/12/yii2test/frontend/web/index.php?r=register%2Fregister2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://127.0.0.1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_LENGTH' => '68'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1512353808.1452
+    'REQUEST_TIME' => 1512353808
+]
+2017-12-04 02:17:30 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\web\Controller.php:166
+Stack trace:
+#0 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('register2', Array)
+#2 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('register/regist...', Array)
+#3 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\phpStudy\WWW\12\yii2test\frontend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2017-12-04 02:17:30 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][info][application] $_GET = [
+    'r' => 'register/register2'
+]
+
+$_POST = [
+    'username' => '小谷'
+    'date' => '19971113'
+    'address' => '八维'
+]
+
+$_COOKIE = [
+    'UM_distinctid' => '15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170'
+    'CNZZDATA1585378' => 'cnzz_eid=976228791-1508758951-&ntime=1508758951'
+    'CNZZDATA5488951' => 'cnzz_eid=2130234061-1508756853-&ntime=1508756853'
+    'Hm_lvt_b88cfc1ccab788f0903cac38c894caa3' => '1508760764'
+    'pgv_pvid' => '6063116993'
+    'CNZZDATA155540' => 'cnzz_eid=1250492819-1510970845-http%3A%2F%2F127.0.0.1%2F&ntime=1510981648'
+    'advanced-frontend' => '3t44jba75pj3304qkpjik4nas3'
+    '_csrf-frontend' => 'f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'D:\\wamp\\PHP5.3\\;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\WINDOWS\\SYSTEM32;C:\\WINDOWS;C:\\WINDOWS\\SYSTEM32\\WBEM;C:\\WINDOWS\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\ATI TECHNOLOGIES\\ATI.ACE\\CORE-STATIC;C:\\PROGRAM FILES (X86)\\COMMON FILES\\LENOVO\\EASYPLUSSDK\\BIN;C:\\PROGRAM FILES (X86)\\LENOVO\\LENOVO HOME\\;C:\\PROGRAM FILES (X86)\\SKYPE\\PHONE\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;D:\\wamp\\MySQL\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\svn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\ComposerSetup;D:\\Git\\cmd;D:\\phpStudy\\php\\php-5.5.38\\'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2016'
+    'SCRIPT_NAME' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_URI' => '/12/yii2test/frontend/web/index.php?r=register%2Fregister2'
+    'QUERY_STRING' => 'r=register%2Fregister2'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '4752'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/12/yii2test/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'UM_distinctid=15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170; CNZZDATA1585378=cnzz_eid%3D976228791-1508758951-%26ntime%3D1508758951; CNZZDATA5488951=cnzz_eid%3D2130234061-1508756853-%26ntime%3D1508756853; Hm_lvt_b88cfc1ccab788f0903cac38c894caa3=1508760764; pgv_pvid=6063116993; CNZZDATA155540=cnzz_eid%3D1250492819-1510970845-http%253A%252F%252F127.0.0.1%252F%26ntime%3D1510981648; advanced-frontend=3t44jba75pj3304qkpjik4nas3; _csrf-frontend=f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://127.0.0.1/12/yii2test/frontend/web/index.php?r=register%2Fregister2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://127.0.0.1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_LENGTH' => '68'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1512353850.5193
+    'REQUEST_TIME' => 1512353850
+]
+2017-12-04 02:18:02 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\web\Controller.php:166
+Stack trace:
+#0 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('register2', Array)
+#2 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('register/regist...', Array)
+#3 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\phpStudy\WWW\12\yii2test\frontend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2017-12-04 02:18:02 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][info][application] $_GET = [
+    'r' => 'register/register2'
+]
+
+$_POST = [
+    'username' => '小谷'
+    'date' => '19971113'
+    'address' => '八维'
+]
+
+$_COOKIE = [
+    'UM_distinctid' => '15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170'
+    'CNZZDATA1585378' => 'cnzz_eid=976228791-1508758951-&ntime=1508758951'
+    'CNZZDATA5488951' => 'cnzz_eid=2130234061-1508756853-&ntime=1508756853'
+    'Hm_lvt_b88cfc1ccab788f0903cac38c894caa3' => '1508760764'
+    'pgv_pvid' => '6063116993'
+    'CNZZDATA155540' => 'cnzz_eid=1250492819-1510970845-http%3A%2F%2F127.0.0.1%2F&ntime=1510981648'
+    'advanced-frontend' => '3t44jba75pj3304qkpjik4nas3'
+    '_csrf-frontend' => 'f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'D:\\wamp\\PHP5.3\\;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\WINDOWS\\SYSTEM32;C:\\WINDOWS;C:\\WINDOWS\\SYSTEM32\\WBEM;C:\\WINDOWS\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\ATI TECHNOLOGIES\\ATI.ACE\\CORE-STATIC;C:\\PROGRAM FILES (X86)\\COMMON FILES\\LENOVO\\EASYPLUSSDK\\BIN;C:\\PROGRAM FILES (X86)\\LENOVO\\LENOVO HOME\\;C:\\PROGRAM FILES (X86)\\SKYPE\\PHONE\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;D:\\wamp\\MySQL\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\svn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\ComposerSetup;D:\\Git\\cmd;D:\\phpStudy\\php\\php-5.5.38\\'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2016'
+    'SCRIPT_NAME' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_URI' => '/12/yii2test/frontend/web/index.php?r=register%2Fregister2'
+    'QUERY_STRING' => 'r=register%2Fregister2'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '4762'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/12/yii2test/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'UM_distinctid=15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170; CNZZDATA1585378=cnzz_eid%3D976228791-1508758951-%26ntime%3D1508758951; CNZZDATA5488951=cnzz_eid%3D2130234061-1508756853-%26ntime%3D1508756853; Hm_lvt_b88cfc1ccab788f0903cac38c894caa3=1508760764; pgv_pvid=6063116993; CNZZDATA155540=cnzz_eid%3D1250492819-1510970845-http%253A%252F%252F127.0.0.1%252F%26ntime%3D1510981648; advanced-frontend=3t44jba75pj3304qkpjik4nas3; _csrf-frontend=f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://127.0.0.1/12/yii2test/frontend/web/index.php?r=register%2Fregister2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://127.0.0.1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_LENGTH' => '68'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1512353882.2512
+    'REQUEST_TIME' => 1512353882
+]
+2017-12-04 02:18:05 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\web\Controller.php:166
+Stack trace:
+#0 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('register2', Array)
+#2 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('register/regist...', Array)
+#3 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\phpStudy\WWW\12\yii2test\frontend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2017-12-04 02:18:05 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][info][application] $_GET = [
+    'r' => 'register/register2'
+]
+
+$_POST = [
+    'username' => '小谷'
+    'date' => '19971113'
+    'address' => '八维'
+]
+
+$_COOKIE = [
+    'UM_distinctid' => '15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170'
+    'CNZZDATA1585378' => 'cnzz_eid=976228791-1508758951-&ntime=1508758951'
+    'CNZZDATA5488951' => 'cnzz_eid=2130234061-1508756853-&ntime=1508756853'
+    'Hm_lvt_b88cfc1ccab788f0903cac38c894caa3' => '1508760764'
+    'pgv_pvid' => '6063116993'
+    'CNZZDATA155540' => 'cnzz_eid=1250492819-1510970845-http%3A%2F%2F127.0.0.1%2F&ntime=1510981648'
+    'advanced-frontend' => '3t44jba75pj3304qkpjik4nas3'
+    '_csrf-frontend' => 'f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'D:\\wamp\\PHP5.3\\;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\WINDOWS\\SYSTEM32;C:\\WINDOWS;C:\\WINDOWS\\SYSTEM32\\WBEM;C:\\WINDOWS\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\ATI TECHNOLOGIES\\ATI.ACE\\CORE-STATIC;C:\\PROGRAM FILES (X86)\\COMMON FILES\\LENOVO\\EASYPLUSSDK\\BIN;C:\\PROGRAM FILES (X86)\\LENOVO\\LENOVO HOME\\;C:\\PROGRAM FILES (X86)\\SKYPE\\PHONE\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;D:\\wamp\\MySQL\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\svn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\ComposerSetup;D:\\Git\\cmd;D:\\phpStudy\\php\\php-5.5.38\\'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2016'
+    'SCRIPT_NAME' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_URI' => '/12/yii2test/frontend/web/index.php?r=register%2Fregister2'
+    'QUERY_STRING' => 'r=register%2Fregister2'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '4766'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/12/yii2test/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'UM_distinctid=15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170; CNZZDATA1585378=cnzz_eid%3D976228791-1508758951-%26ntime%3D1508758951; CNZZDATA5488951=cnzz_eid%3D2130234061-1508756853-%26ntime%3D1508756853; Hm_lvt_b88cfc1ccab788f0903cac38c894caa3=1508760764; pgv_pvid=6063116993; CNZZDATA155540=cnzz_eid%3D1250492819-1510970845-http%253A%252F%252F127.0.0.1%252F%26ntime%3D1510981648; advanced-frontend=3t44jba75pj3304qkpjik4nas3; _csrf-frontend=f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://127.0.0.1/12/yii2test/frontend/web/index.php?r=register%2Fregister2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://127.0.0.1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_LENGTH' => '68'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1512353885.4164
+    'REQUEST_TIME' => 1512353885
+]
+2017-12-04 02:18:16 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\web\Controller.php:166
+Stack trace:
+#0 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('register2', Array)
+#2 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('register/regist...', Array)
+#3 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\phpStudy\WWW\12\yii2test\frontend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2017-12-04 02:18:16 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][info][application] $_GET = [
+    'r' => 'register/register2'
+]
+
+$_POST = [
+    'username' => '小谷'
+    'date' => '19971113'
+    'address' => '八维'
+]
+
+$_COOKIE = [
+    'UM_distinctid' => '15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170'
+    'CNZZDATA1585378' => 'cnzz_eid=976228791-1508758951-&ntime=1508758951'
+    'CNZZDATA5488951' => 'cnzz_eid=2130234061-1508756853-&ntime=1508756853'
+    'Hm_lvt_b88cfc1ccab788f0903cac38c894caa3' => '1508760764'
+    'pgv_pvid' => '6063116993'
+    'CNZZDATA155540' => 'cnzz_eid=1250492819-1510970845-http%3A%2F%2F127.0.0.1%2F&ntime=1510981648'
+    'advanced-frontend' => '3t44jba75pj3304qkpjik4nas3'
+    '_csrf-frontend' => 'f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'D:\\wamp\\PHP5.3\\;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\WINDOWS\\SYSTEM32;C:\\WINDOWS;C:\\WINDOWS\\SYSTEM32\\WBEM;C:\\WINDOWS\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\ATI TECHNOLOGIES\\ATI.ACE\\CORE-STATIC;C:\\PROGRAM FILES (X86)\\COMMON FILES\\LENOVO\\EASYPLUSSDK\\BIN;C:\\PROGRAM FILES (X86)\\LENOVO\\LENOVO HOME\\;C:\\PROGRAM FILES (X86)\\SKYPE\\PHONE\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;D:\\wamp\\MySQL\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\svn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\ComposerSetup;D:\\Git\\cmd;D:\\phpStudy\\php\\php-5.5.38\\'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2016'
+    'SCRIPT_NAME' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_URI' => '/12/yii2test/frontend/web/index.php?r=register%2Fregister2'
+    'QUERY_STRING' => 'r=register%2Fregister2'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '4776'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/12/yii2test/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'UM_distinctid=15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170; CNZZDATA1585378=cnzz_eid%3D976228791-1508758951-%26ntime%3D1508758951; CNZZDATA5488951=cnzz_eid%3D2130234061-1508756853-%26ntime%3D1508756853; Hm_lvt_b88cfc1ccab788f0903cac38c894caa3=1508760764; pgv_pvid=6063116993; CNZZDATA155540=cnzz_eid%3D1250492819-1510970845-http%253A%252F%252F127.0.0.1%252F%26ntime%3D1510981648; advanced-frontend=3t44jba75pj3304qkpjik4nas3; _csrf-frontend=f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://127.0.0.1/12/yii2test/frontend/web/index.php?r=register%2Fregister2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://127.0.0.1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_LENGTH' => '68'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1512353896.3412
+    'REQUEST_TIME' => 1512353896
+]
+2017-12-04 02:20:04 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: register/regsiter3' in D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('regsiter3', Array)
+#1 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('register/regsit...', Array)
+#2 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\phpStudy\WWW\12\yii2test\frontend\web\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\12\yii2test\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-12-04 02:20:04 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][info][application] $_GET = [
+    'r' => 'register/regsiter3'
+]
+
+$_POST = [
+    '_csrf-frontend' => '8Ro-_MmVwHpX3pgpqy2oTOHgLvNir453jwH4iZ_jHK3cQlnJiPiCThKu_U_hae4VpYcXwDPK3AXCaZHu_bZ27w=='
+]
+
+$_COOKIE = [
+    'UM_distinctid' => '15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170'
+    'CNZZDATA1585378' => 'cnzz_eid=976228791-1508758951-&ntime=1508758951'
+    'CNZZDATA5488951' => 'cnzz_eid=2130234061-1508756853-&ntime=1508756853'
+    'Hm_lvt_b88cfc1ccab788f0903cac38c894caa3' => '1508760764'
+    'pgv_pvid' => '6063116993'
+    'CNZZDATA155540' => 'cnzz_eid=1250492819-1510970845-http%3A%2F%2F127.0.0.1%2F&ntime=1510981648'
+    'advanced-frontend' => '3t44jba75pj3304qkpjik4nas3'
+    '_csrf-frontend' => 'f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'D:\\wamp\\PHP5.3\\;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\WINDOWS\\SYSTEM32;C:\\WINDOWS;C:\\WINDOWS\\SYSTEM32\\WBEM;C:\\WINDOWS\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\ATI TECHNOLOGIES\\ATI.ACE\\CORE-STATIC;C:\\PROGRAM FILES (X86)\\COMMON FILES\\LENOVO\\EASYPLUSSDK\\BIN;C:\\PROGRAM FILES (X86)\\LENOVO\\LENOVO HOME\\;C:\\PROGRAM FILES (X86)\\SKYPE\\PHONE\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;D:\\wamp\\MySQL\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\svn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\ComposerSetup;D:\\Git\\cmd;D:\\phpStudy\\php\\php-5.5.38\\'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2016'
+    'SCRIPT_NAME' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_URI' => '/12/yii2test/frontend/web/index.php?r=register%2Fregsiter3'
+    'QUERY_STRING' => 'r=register%2Fregsiter3'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '4820'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/12/yii2test/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'UM_distinctid=15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170; CNZZDATA1585378=cnzz_eid%3D976228791-1508758951-%26ntime%3D1508758951; CNZZDATA5488951=cnzz_eid%3D2130234061-1508756853-%26ntime%3D1508756853; Hm_lvt_b88cfc1ccab788f0903cac38c894caa3=1508760764; pgv_pvid=6063116993; CNZZDATA155540=cnzz_eid%3D1250492819-1510970845-http%253A%252F%252F127.0.0.1%252F%26ntime%3D1510981648; advanced-frontend=3t44jba75pj3304qkpjik4nas3; _csrf-frontend=f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://127.0.0.1/12/yii2test/frontend/web/index.php?r=register%2Fregister3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://127.0.0.1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_LENGTH' => '107'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1512354004.8617
+    'REQUEST_TIME' => 1512354004
+]
+2017-12-04 02:20:18 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: register/regsiter3' in D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('regsiter3', Array)
+#1 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('register/regsit...', Array)
+#2 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\phpStudy\WWW\12\yii2test\frontend\web\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\12\yii2test\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-12-04 02:20:17 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][info][application] $_GET = [
+    'r' => 'register/regsiter3'
+]
+
+$_POST = [
+    '_csrf-frontend' => '8Ro-_MmVwHpX3pgpqy2oTOHgLvNir453jwH4iZ_jHK3cQlnJiPiCThKu_U_hae4VpYcXwDPK3AXCaZHu_bZ27w=='
+]
+
+$_COOKIE = [
+    'UM_distinctid' => '15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170'
+    'CNZZDATA1585378' => 'cnzz_eid=976228791-1508758951-&ntime=1508758951'
+    'CNZZDATA5488951' => 'cnzz_eid=2130234061-1508756853-&ntime=1508756853'
+    'Hm_lvt_b88cfc1ccab788f0903cac38c894caa3' => '1508760764'
+    'pgv_pvid' => '6063116993'
+    'CNZZDATA155540' => 'cnzz_eid=1250492819-1510970845-http%3A%2F%2F127.0.0.1%2F&ntime=1510981648'
+    'advanced-frontend' => '3t44jba75pj3304qkpjik4nas3'
+    '_csrf-frontend' => 'f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'D:\\wamp\\PHP5.3\\;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\WINDOWS\\SYSTEM32;C:\\WINDOWS;C:\\WINDOWS\\SYSTEM32\\WBEM;C:\\WINDOWS\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\ATI TECHNOLOGIES\\ATI.ACE\\CORE-STATIC;C:\\PROGRAM FILES (X86)\\COMMON FILES\\LENOVO\\EASYPLUSSDK\\BIN;C:\\PROGRAM FILES (X86)\\LENOVO\\LENOVO HOME\\;C:\\PROGRAM FILES (X86)\\SKYPE\\PHONE\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;D:\\wamp\\MySQL\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\svn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\ComposerSetup;D:\\Git\\cmd;D:\\phpStudy\\php\\php-5.5.38\\'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2016'
+    'SCRIPT_NAME' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_URI' => '/12/yii2test/frontend/web/index.php?r=register%2Fregsiter3'
+    'QUERY_STRING' => 'r=register%2Fregsiter3'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '4829'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/12/yii2test/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'UM_distinctid=15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170; CNZZDATA1585378=cnzz_eid%3D976228791-1508758951-%26ntime%3D1508758951; CNZZDATA5488951=cnzz_eid%3D2130234061-1508756853-%26ntime%3D1508756853; Hm_lvt_b88cfc1ccab788f0903cac38c894caa3=1508760764; pgv_pvid=6063116993; CNZZDATA155540=cnzz_eid%3D1250492819-1510970845-http%253A%252F%252F127.0.0.1%252F%26ntime%3D1510981648; advanced-frontend=3t44jba75pj3304qkpjik4nas3; _csrf-frontend=f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://127.0.0.1/12/yii2test/frontend/web/index.php?r=register%2Fregister3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://127.0.0.1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_LENGTH' => '107'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1512354017.9556
+    'REQUEST_TIME' => 1512354017
+]
+2017-12-04 02:20:20 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: register/regsiter3' in D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('regsiter3', Array)
+#1 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('register/regsit...', Array)
+#2 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\phpStudy\WWW\12\yii2test\frontend\web\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\12\yii2test\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-12-04 02:20:20 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][info][application] $_GET = [
+    'r' => 'register/regsiter3'
+]
+
+$_POST = [
+    '_csrf-frontend' => '6HlEs1iESBQIeZBzhtGuQUa-S62ck2y2CifcLn4TSbfFISOGGekKIE0J9RXMlegYAtlyns32PsRHT7VJHEYj9Q=='
+]
+
+$_COOKIE = [
+    'UM_distinctid' => '15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170'
+    'CNZZDATA1585378' => 'cnzz_eid=976228791-1508758951-&ntime=1508758951'
+    'CNZZDATA5488951' => 'cnzz_eid=2130234061-1508756853-&ntime=1508756853'
+    'Hm_lvt_b88cfc1ccab788f0903cac38c894caa3' => '1508760764'
+    'pgv_pvid' => '6063116993'
+    'CNZZDATA155540' => 'cnzz_eid=1250492819-1510970845-http%3A%2F%2F127.0.0.1%2F&ntime=1510981648'
+    'advanced-frontend' => '3t44jba75pj3304qkpjik4nas3'
+    '_csrf-frontend' => 'f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'D:\\wamp\\PHP5.3\\;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\WINDOWS\\SYSTEM32;C:\\WINDOWS;C:\\WINDOWS\\SYSTEM32\\WBEM;C:\\WINDOWS\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\ATI TECHNOLOGIES\\ATI.ACE\\CORE-STATIC;C:\\PROGRAM FILES (X86)\\COMMON FILES\\LENOVO\\EASYPLUSSDK\\BIN;C:\\PROGRAM FILES (X86)\\LENOVO\\LENOVO HOME\\;C:\\PROGRAM FILES (X86)\\SKYPE\\PHONE\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;D:\\wamp\\MySQL\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\svn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\ComposerSetup;D:\\Git\\cmd;D:\\phpStudy\\php\\php-5.5.38\\'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2016'
+    'SCRIPT_NAME' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_URI' => '/12/yii2test/frontend/web/index.php?r=register%2Fregsiter3'
+    'QUERY_STRING' => 'r=register%2Fregsiter3'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '4831'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/12/yii2test/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'UM_distinctid=15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170; CNZZDATA1585378=cnzz_eid%3D976228791-1508758951-%26ntime%3D1508758951; CNZZDATA5488951=cnzz_eid%3D2130234061-1508756853-%26ntime%3D1508756853; Hm_lvt_b88cfc1ccab788f0903cac38c894caa3=1508760764; pgv_pvid=6063116993; CNZZDATA155540=cnzz_eid%3D1250492819-1510970845-http%253A%252F%252F127.0.0.1%252F%26ntime%3D1510981648; advanced-frontend=3t44jba75pj3304qkpjik4nas3; _csrf-frontend=f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://127.0.0.1/12/yii2test/frontend/web/index.php?r=register%2Fregister3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://127.0.0.1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_LENGTH' => '107'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1512354020.612
+    'REQUEST_TIME' => 1512354020
+]
+2017-12-04 02:21:48 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: register/regsiter3' in D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('regsiter3', Array)
+#1 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('register/regsit...', Array)
+#2 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\phpStudy\WWW\12\yii2test\frontend\web\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\12\yii2test\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-12-04 02:21:47 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][info][application] $_GET = [
+    'r' => 'register/regsiter3'
+]
+
+$_POST = [
+    '_csrf-frontend' => 'qmF2dS23V5iXrcGt4Ujuoa7XtEOQWzhJcKHF-WBWQZyHORFAbNoVrNLdpMurDKj46rCNcME-ajs9yayeAgMr3g=='
+]
+
+$_COOKIE = [
+    'UM_distinctid' => '15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170'
+    'CNZZDATA1585378' => 'cnzz_eid=976228791-1508758951-&ntime=1508758951'
+    'CNZZDATA5488951' => 'cnzz_eid=2130234061-1508756853-&ntime=1508756853'
+    'Hm_lvt_b88cfc1ccab788f0903cac38c894caa3' => '1508760764'
+    'pgv_pvid' => '6063116993'
+    'CNZZDATA155540' => 'cnzz_eid=1250492819-1510970845-http%3A%2F%2F127.0.0.1%2F&ntime=1510981648'
+    'advanced-frontend' => '3t44jba75pj3304qkpjik4nas3'
+    '_csrf-frontend' => 'f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'D:\\wamp\\PHP5.3\\;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\WINDOWS\\SYSTEM32;C:\\WINDOWS;C:\\WINDOWS\\SYSTEM32\\WBEM;C:\\WINDOWS\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\ATI TECHNOLOGIES\\ATI.ACE\\CORE-STATIC;C:\\PROGRAM FILES (X86)\\COMMON FILES\\LENOVO\\EASYPLUSSDK\\BIN;C:\\PROGRAM FILES (X86)\\LENOVO\\LENOVO HOME\\;C:\\PROGRAM FILES (X86)\\SKYPE\\PHONE\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;D:\\wamp\\MySQL\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\svn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\ComposerSetup;D:\\Git\\cmd;D:\\phpStudy\\php\\php-5.5.38\\'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2016'
+    'SCRIPT_NAME' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_URI' => '/12/yii2test/frontend/web/index.php?r=register%2Fregsiter3'
+    'QUERY_STRING' => 'r=register%2Fregsiter3'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '4856'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/12/yii2test/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'UM_distinctid=15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170; CNZZDATA1585378=cnzz_eid%3D976228791-1508758951-%26ntime%3D1508758951; CNZZDATA5488951=cnzz_eid%3D2130234061-1508756853-%26ntime%3D1508756853; Hm_lvt_b88cfc1ccab788f0903cac38c894caa3=1508760764; pgv_pvid=6063116993; CNZZDATA155540=cnzz_eid%3D1250492819-1510970845-http%253A%252F%252F127.0.0.1%252F%26ntime%3D1510981648; advanced-frontend=3t44jba75pj3304qkpjik4nas3; _csrf-frontend=f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://127.0.0.1/12/yii2test/frontend/web/index.php?r=register%2Fregister3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://127.0.0.1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_LENGTH' => '107'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1512354107.8974
+    'REQUEST_TIME' => 1512354107
+]
+2017-12-04 02:22:31 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: register/regsiter3' in D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('regsiter3', Array)
+#1 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('register/regsit...', Array)
+#2 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\phpStudy\WWW\12\yii2test\frontend\web\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\12\yii2test\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-12-04 02:22:31 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][info][application] $_GET = [
+    'r' => 'register/regsiter3'
+]
+
+$_POST = [
+    'hobby' => [
+        0 => '乒乓球'
+        1 => '电影'
+        2 => '爬树'
+        3 => '打篮球'
+        4 => '旅游'
+        5 => '傻笑'
+    ]
+    '_csrf-frontend' => 'dopIq4LulBHQOhnHQPmbTEz83_RNvjGhwODoo04ODrhb0i-ew4PWJZVKfKEKvd0VCJvmxxzbY9ONiIHELFtk-g=='
+]
+
+$_COOKIE = [
+    'UM_distinctid' => '15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170'
+    'CNZZDATA1585378' => 'cnzz_eid=976228791-1508758951-&ntime=1508758951'
+    'CNZZDATA5488951' => 'cnzz_eid=2130234061-1508756853-&ntime=1508756853'
+    'Hm_lvt_b88cfc1ccab788f0903cac38c894caa3' => '1508760764'
+    'pgv_pvid' => '6063116993'
+    'CNZZDATA155540' => 'cnzz_eid=1250492819-1510970845-http%3A%2F%2F127.0.0.1%2F&ntime=1510981648'
+    'advanced-frontend' => '3t44jba75pj3304qkpjik4nas3'
+    '_csrf-frontend' => 'f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'D:\\wamp\\PHP5.3\\;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\WINDOWS\\SYSTEM32;C:\\WINDOWS;C:\\WINDOWS\\SYSTEM32\\WBEM;C:\\WINDOWS\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\ATI TECHNOLOGIES\\ATI.ACE\\CORE-STATIC;C:\\PROGRAM FILES (X86)\\COMMON FILES\\LENOVO\\EASYPLUSSDK\\BIN;C:\\PROGRAM FILES (X86)\\LENOVO\\LENOVO HOME\\;C:\\PROGRAM FILES (X86)\\SKYPE\\PHONE\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;D:\\wamp\\MySQL\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\svn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\ComposerSetup;D:\\Git\\cmd;D:\\phpStudy\\php\\php-5.5.38\\'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2016'
+    'SCRIPT_NAME' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_URI' => '/12/yii2test/frontend/web/index.php?r=register%2Fregsiter3'
+    'QUERY_STRING' => 'r=register%2Fregsiter3'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '4860'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/12/yii2test/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'UM_distinctid=15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170; CNZZDATA1585378=cnzz_eid%3D976228791-1508758951-%26ntime%3D1508758951; CNZZDATA5488951=cnzz_eid%3D2130234061-1508756853-%26ntime%3D1508756853; Hm_lvt_b88cfc1ccab788f0903cac38c894caa3=1508760764; pgv_pvid=6063116993; CNZZDATA155540=cnzz_eid%3D1250492819-1510970845-http%253A%252F%252F127.0.0.1%252F%26ntime%3D1510981648; advanced-frontend=3t44jba75pj3304qkpjik4nas3; _csrf-frontend=f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://127.0.0.1/12/yii2test/frontend/web/index.php?r=register%2Fregister3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://127.0.0.1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_LENGTH' => '311'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1512354151.2949
+    'REQUEST_TIME' => 1512354151
+]
+2017-12-04 02:25:05 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: register/regsiter3' in D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('regsiter3', Array)
+#1 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('register/regsit...', Array)
+#2 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\phpStudy\WWW\12\yii2test\frontend\web\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\12\yii2test\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-12-04 02:25:04 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][info][application] $_GET = [
+    'r' => 'register/regsiter3'
+]
+
+$_POST = [
+    '_csrf-frontend' => 'vX7IK_lOKfmlX1eLlSVEB9a2tH2Tbxu-p7Rtmfh1BjiQJq8euCNrzeAvMu3fYQJektGNTsIKSczq3AT-miBseg=='
+]
+
+$_COOKIE = [
+    'UM_distinctid' => '15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170'
+    'CNZZDATA1585378' => 'cnzz_eid=976228791-1508758951-&ntime=1508758951'
+    'CNZZDATA5488951' => 'cnzz_eid=2130234061-1508756853-&ntime=1508756853'
+    'Hm_lvt_b88cfc1ccab788f0903cac38c894caa3' => '1508760764'
+    'pgv_pvid' => '6063116993'
+    'CNZZDATA155540' => 'cnzz_eid=1250492819-1510970845-http%3A%2F%2F127.0.0.1%2F&ntime=1510981648'
+    'advanced-frontend' => '3t44jba75pj3304qkpjik4nas3'
+    '_csrf-frontend' => 'f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'D:\\wamp\\PHP5.3\\;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\WINDOWS\\SYSTEM32;C:\\WINDOWS;C:\\WINDOWS\\SYSTEM32\\WBEM;C:\\WINDOWS\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\ATI TECHNOLOGIES\\ATI.ACE\\CORE-STATIC;C:\\PROGRAM FILES (X86)\\COMMON FILES\\LENOVO\\EASYPLUSSDK\\BIN;C:\\PROGRAM FILES (X86)\\LENOVO\\LENOVO HOME\\;C:\\PROGRAM FILES (X86)\\SKYPE\\PHONE\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;D:\\wamp\\MySQL\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\svn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\ComposerSetup;D:\\Git\\cmd;D:\\phpStudy\\php\\php-5.5.38\\'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2192'
+    'SCRIPT_NAME' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_URI' => '/12/yii2test/frontend/web/index.php?r=register%2Fregsiter3'
+    'QUERY_STRING' => 'r=register%2Fregsiter3'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '4874'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/12/yii2test/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'UM_distinctid=15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170; CNZZDATA1585378=cnzz_eid%3D976228791-1508758951-%26ntime%3D1508758951; CNZZDATA5488951=cnzz_eid%3D2130234061-1508756853-%26ntime%3D1508756853; Hm_lvt_b88cfc1ccab788f0903cac38c894caa3=1508760764; pgv_pvid=6063116993; CNZZDATA155540=cnzz_eid%3D1250492819-1510970845-http%253A%252F%252F127.0.0.1%252F%26ntime%3D1510981648; advanced-frontend=3t44jba75pj3304qkpjik4nas3; _csrf-frontend=f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://127.0.0.1/12/yii2test/frontend/web/index.php?r=register%2Fregister3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://127.0.0.1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_LENGTH' => '107'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1512354304.946
+    'REQUEST_TIME' => 1512354304
+]
+2017-12-04 02:28:06 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: frontend\models\register\Register::username' in D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Component.php:203
+Stack trace:
+#0 D:\phpStudy\WWW\12\yii2test\frontend\controllers\RegisterController.php(60): yii\base\Component->__set('username', '')
+#1 [internal function]: frontend\controllers\RegisterController->actionRegister3()
+#2 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('register3', Array)
+#5 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('register/regist...', Array)
+#6 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\phpStudy\WWW\12\yii2test\frontend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2017-12-04 02:28:06 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][info][application] $_GET = [
+    'r' => 'register/register3'
+]
+
+$_POST = [
+    'hobby' => [
+        0 => '乒乓球'
+        1 => '电影'
+        2 => '爬树'
+    ]
+    '_csrf-frontend' => 'S0z9MX-6jJTMfiI_YL4XJedaohKNG6ezQw2Oyd9r3RRmFJoEPtfOoIkOR1kq-lF8oz2bIdx-9cEOZeeuvT63Vg=='
+]
+
+$_COOKIE = [
+    'UM_distinctid' => '15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170'
+    'CNZZDATA1585378' => 'cnzz_eid=976228791-1508758951-&ntime=1508758951'
+    'CNZZDATA5488951' => 'cnzz_eid=2130234061-1508756853-&ntime=1508756853'
+    'Hm_lvt_b88cfc1ccab788f0903cac38c894caa3' => '1508760764'
+    'pgv_pvid' => '6063116993'
+    'CNZZDATA155540' => 'cnzz_eid=1250492819-1510970845-http%3A%2F%2F127.0.0.1%2F&ntime=1510981648'
+    'advanced-frontend' => '3t44jba75pj3304qkpjik4nas3'
+    '_csrf-frontend' => 'f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'D:\\wamp\\PHP5.3\\;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\WINDOWS\\SYSTEM32;C:\\WINDOWS;C:\\WINDOWS\\SYSTEM32\\WBEM;C:\\WINDOWS\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\ATI TECHNOLOGIES\\ATI.ACE\\CORE-STATIC;C:\\PROGRAM FILES (X86)\\COMMON FILES\\LENOVO\\EASYPLUSSDK\\BIN;C:\\PROGRAM FILES (X86)\\LENOVO\\LENOVO HOME\\;C:\\PROGRAM FILES (X86)\\SKYPE\\PHONE\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;D:\\wamp\\MySQL\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\svn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\ComposerSetup;D:\\Git\\cmd;D:\\phpStudy\\php\\php-5.5.38\\'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2192'
+    'SCRIPT_NAME' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_URI' => '/12/yii2test/frontend/web/index.php?r=register%2Fregister3'
+    'QUERY_STRING' => 'r=register%2Fregister3'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '4880'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/12/yii2test/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'UM_distinctid=15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170; CNZZDATA1585378=cnzz_eid%3D976228791-1508758951-%26ntime%3D1508758951; CNZZDATA5488951=cnzz_eid%3D2130234061-1508756853-%26ntime%3D1508756853; Hm_lvt_b88cfc1ccab788f0903cac38c894caa3=1508760764; pgv_pvid=6063116993; CNZZDATA155540=cnzz_eid%3D1250492819-1510970845-http%253A%252F%252F127.0.0.1%252F%26ntime%3D1510981648; advanced-frontend=3t44jba75pj3304qkpjik4nas3; _csrf-frontend=f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://127.0.0.1/12/yii2test/frontend/web/index.php?r=register%2Fregister3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://127.0.0.1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_LENGTH' => '209'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1512354486.1039
+    'REQUEST_TIME' => 1512354486
+]
+2017-12-04 02:28:48 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: frontend\models\register\Register::username' in D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Component.php:203
+Stack trace:
+#0 D:\phpStudy\WWW\12\yii2test\frontend\controllers\RegisterController.php(60): yii\base\Component->__set('username', '')
+#1 [internal function]: frontend\controllers\RegisterController->actionRegister3()
+#2 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('register3', Array)
+#5 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('register/regist...', Array)
+#6 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\phpStudy\WWW\12\yii2test\frontend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2017-12-04 02:28:48 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][info][application] $_GET = [
+    'r' => 'register/register3'
+]
+
+$_POST = [
+    'hobby' => [
+        0 => '乒乓球'
+        1 => '电影'
+        2 => '爬树'
+    ]
+    '_csrf-frontend' => 'JbIk6pHgMyIP_w1JMUuh7QKAi-OIJ-kiq3HqX_vIB-8I6kPf0I1xFkqPaC97D-e0Ruey0NlCu1DmGYM4mZ1trQ=='
+]
+
+$_COOKIE = [
+    'UM_distinctid' => '15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170'
+    'CNZZDATA1585378' => 'cnzz_eid=976228791-1508758951-&ntime=1508758951'
+    'CNZZDATA5488951' => 'cnzz_eid=2130234061-1508756853-&ntime=1508756853'
+    'Hm_lvt_b88cfc1ccab788f0903cac38c894caa3' => '1508760764'
+    'pgv_pvid' => '6063116993'
+    'CNZZDATA155540' => 'cnzz_eid=1250492819-1510970845-http%3A%2F%2F127.0.0.1%2F&ntime=1510981648'
+    'advanced-frontend' => '3t44jba75pj3304qkpjik4nas3'
+    '_csrf-frontend' => 'f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'D:\\wamp\\PHP5.3\\;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\WINDOWS\\SYSTEM32;C:\\WINDOWS;C:\\WINDOWS\\SYSTEM32\\WBEM;C:\\WINDOWS\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\ATI TECHNOLOGIES\\ATI.ACE\\CORE-STATIC;C:\\PROGRAM FILES (X86)\\COMMON FILES\\LENOVO\\EASYPLUSSDK\\BIN;C:\\PROGRAM FILES (X86)\\LENOVO\\LENOVO HOME\\;C:\\PROGRAM FILES (X86)\\SKYPE\\PHONE\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;D:\\wamp\\MySQL\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\svn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\ComposerSetup;D:\\Git\\cmd;D:\\phpStudy\\php\\php-5.5.38\\'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2192'
+    'SCRIPT_NAME' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_URI' => '/12/yii2test/frontend/web/index.php?r=register%2Fregister3'
+    'QUERY_STRING' => 'r=register%2Fregister3'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '4882'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/12/yii2test/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'UM_distinctid=15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170; CNZZDATA1585378=cnzz_eid%3D976228791-1508758951-%26ntime%3D1508758951; CNZZDATA5488951=cnzz_eid%3D2130234061-1508756853-%26ntime%3D1508756853; Hm_lvt_b88cfc1ccab788f0903cac38c894caa3=1508760764; pgv_pvid=6063116993; CNZZDATA155540=cnzz_eid%3D1250492819-1510970845-http%253A%252F%252F127.0.0.1%252F%26ntime%3D1510981648; advanced-frontend=3t44jba75pj3304qkpjik4nas3; _csrf-frontend=f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://127.0.0.1/12/yii2test/frontend/web/index.php?r=register%2Fregister3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://127.0.0.1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_LENGTH' => '209'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1512354528.1775
+    'REQUEST_TIME' => 1512354528
+]
+2017-12-04 02:29:45 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: frontend\models\register\Register::username' in D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Component.php:203
+Stack trace:
+#0 D:\phpStudy\WWW\12\yii2test\frontend\controllers\RegisterController.php(60): yii\base\Component->__set('username', '')
+#1 [internal function]: frontend\controllers\RegisterController->actionRegister3()
+#2 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('register3', Array)
+#5 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('register/regist...', Array)
+#6 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\phpStudy\WWW\12\yii2test\frontend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2017-12-04 02:29:45 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][info][application] $_GET = [
+    'r' => 'register/register3'
+]
+
+$_POST = [
+    'hobby' => [
+        0 => '乒乓球'
+        1 => '电影'
+        2 => '爬树'
+    ]
+    '_csrf-frontend' => 'JbIk6pHgMyIP_w1JMUuh7QKAi-OIJ-kiq3HqX_vIB-8I6kPf0I1xFkqPaC97D-e0Ruey0NlCu1DmGYM4mZ1trQ=='
+]
+
+$_COOKIE = [
+    'UM_distinctid' => '15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170'
+    'CNZZDATA1585378' => 'cnzz_eid=976228791-1508758951-&ntime=1508758951'
+    'CNZZDATA5488951' => 'cnzz_eid=2130234061-1508756853-&ntime=1508756853'
+    'Hm_lvt_b88cfc1ccab788f0903cac38c894caa3' => '1508760764'
+    'pgv_pvid' => '6063116993'
+    'CNZZDATA155540' => 'cnzz_eid=1250492819-1510970845-http%3A%2F%2F127.0.0.1%2F&ntime=1510981648'
+    'advanced-frontend' => '3t44jba75pj3304qkpjik4nas3'
+    '_csrf-frontend' => 'f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'D:\\wamp\\PHP5.3\\;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\WINDOWS\\SYSTEM32;C:\\WINDOWS;C:\\WINDOWS\\SYSTEM32\\WBEM;C:\\WINDOWS\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\ATI TECHNOLOGIES\\ATI.ACE\\CORE-STATIC;C:\\PROGRAM FILES (X86)\\COMMON FILES\\LENOVO\\EASYPLUSSDK\\BIN;C:\\PROGRAM FILES (X86)\\LENOVO\\LENOVO HOME\\;C:\\PROGRAM FILES (X86)\\SKYPE\\PHONE\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;D:\\wamp\\MySQL\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\svn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\ComposerSetup;D:\\Git\\cmd;D:\\phpStudy\\php\\php-5.5.38\\'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2192'
+    'SCRIPT_NAME' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_URI' => '/12/yii2test/frontend/web/index.php?r=register%2Fregister3'
+    'QUERY_STRING' => 'r=register%2Fregister3'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '4885'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/12/yii2test/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'UM_distinctid=15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170; CNZZDATA1585378=cnzz_eid%3D976228791-1508758951-%26ntime%3D1508758951; CNZZDATA5488951=cnzz_eid%3D2130234061-1508756853-%26ntime%3D1508756853; Hm_lvt_b88cfc1ccab788f0903cac38c894caa3=1508760764; pgv_pvid=6063116993; CNZZDATA155540=cnzz_eid%3D1250492819-1510970845-http%253A%252F%252F127.0.0.1%252F%26ntime%3D1510981648; advanced-frontend=3t44jba75pj3304qkpjik4nas3; _csrf-frontend=f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://127.0.0.1/12/yii2test/frontend/web/index.php?r=register%2Fregister3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://127.0.0.1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_LENGTH' => '209'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1512354585.0397
+    'REQUEST_TIME' => 1512354585
+]
+2017-12-04 02:30:10 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: frontend\models\register\Register::username' in D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Component.php:203
+Stack trace:
+#0 D:\phpStudy\WWW\12\yii2test\frontend\controllers\RegisterController.php(60): yii\base\Component->__set('username', '')
+#1 [internal function]: frontend\controllers\RegisterController->actionRegister3()
+#2 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('register3', Array)
+#5 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('register/regist...', Array)
+#6 D:\phpStudy\WWW\12\yii2test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\phpStudy\WWW\12\yii2test\frontend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2017-12-04 02:30:10 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][info][application] $_GET = [
+    'r' => 'register/register3'
+]
+
+$_POST = [
+    'hobby' => [
+        0 => '乒乓球'
+        1 => '电影'
+    ]
+    '_csrf-frontend' => '6yHM--QrCnkSh8NvWR_gyxvzxt6WvviEbpZhY826NH_GeavOpUZITVf3pgkTW6aSX5T_7cfbqvYj_ggEr-9ePQ=='
+]
+
+$_COOKIE = [
+    'UM_distinctid' => '15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170'
+    'CNZZDATA1585378' => 'cnzz_eid=976228791-1508758951-&ntime=1508758951'
+    'CNZZDATA5488951' => 'cnzz_eid=2130234061-1508756853-&ntime=1508756853'
+    'Hm_lvt_b88cfc1ccab788f0903cac38c894caa3' => '1508760764'
+    'pgv_pvid' => '6063116993'
+    'CNZZDATA155540' => 'cnzz_eid=1250492819-1510970845-http%3A%2F%2F127.0.0.1%2F&ntime=1510981648'
+    'advanced-frontend' => '3t44jba75pj3304qkpjik4nas3'
+    '_csrf-frontend' => 'f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'D:\\wamp\\PHP5.3\\;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\WINDOWS\\SYSTEM32;C:\\WINDOWS;C:\\WINDOWS\\SYSTEM32\\WBEM;C:\\WINDOWS\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\ATI TECHNOLOGIES\\ATI.ACE\\CORE-STATIC;C:\\PROGRAM FILES (X86)\\COMMON FILES\\LENOVO\\EASYPLUSSDK\\BIN;C:\\PROGRAM FILES (X86)\\LENOVO\\LENOVO HOME\\;C:\\PROGRAM FILES (X86)\\SKYPE\\PHONE\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;D:\\wamp\\MySQL\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\svn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\ComposerSetup;D:\\Git\\cmd;D:\\phpStudy\\php\\php-5.5.38\\'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2192'
+    'SCRIPT_NAME' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_URI' => '/12/yii2test/frontend/web/index.php?r=register%2Fregister3'
+    'QUERY_STRING' => 'r=register%2Fregister3'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '4889'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/12/yii2test/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'UM_distinctid=15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170; CNZZDATA1585378=cnzz_eid%3D976228791-1508758951-%26ntime%3D1508758951; CNZZDATA5488951=cnzz_eid%3D2130234061-1508756853-%26ntime%3D1508756853; Hm_lvt_b88cfc1ccab788f0903cac38c894caa3=1508760764; pgv_pvid=6063116993; CNZZDATA155540=cnzz_eid%3D1250492819-1510970845-http%253A%252F%252F127.0.0.1%252F%26ntime%3D1510981648; advanced-frontend=3t44jba75pj3304qkpjik4nas3; _csrf-frontend=f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://127.0.0.1/12/yii2test/frontend/web/index.php?r=register%2Fregister3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://127.0.0.1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_LENGTH' => '178'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1512354610.3867
+    'REQUEST_TIME' => 1512354610
+]
+2017-12-04 02:31:44 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot make static method yii\db\ActiveRecord::tableName() non static in class frontend\models\register\Register' in D:\phpStudy\WWW\12\yii2test\frontend\models\register\Register.php:4
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-12-04 02:31:44 [127.0.0.1][-][3t44jba75pj3304qkpjik4nas3][info][application] $_GET = [
+    'r' => 'register/register3'
+]
+
+$_POST = [
+    'hobby' => [
+        0 => '乒乓球'
+        1 => '电影'
+    ]
+    '_csrf-frontend' => '6yHM--QrCnkSh8NvWR_gyxvzxt6WvviEbpZhY826NH_GeavOpUZITVf3pgkTW6aSX5T_7cfbqvYj_ggEr-9ePQ=='
+]
+
+$_COOKIE = [
+    'UM_distinctid' => '15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170'
+    'CNZZDATA1585378' => 'cnzz_eid=976228791-1508758951-&ntime=1508758951'
+    'CNZZDATA5488951' => 'cnzz_eid=2130234061-1508756853-&ntime=1508756853'
+    'Hm_lvt_b88cfc1ccab788f0903cac38c894caa3' => '1508760764'
+    'pgv_pvid' => '6063116993'
+    'CNZZDATA155540' => 'cnzz_eid=1250492819-1510970845-http%3A%2F%2F127.0.0.1%2F&ntime=1510981648'
+    'advanced-frontend' => '3t44jba75pj3304qkpjik4nas3'
+    '_csrf-frontend' => 'f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'D:\\wamp\\PHP5.3\\;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\WINDOWS\\SYSTEM32;C:\\WINDOWS;C:\\WINDOWS\\SYSTEM32\\WBEM;C:\\WINDOWS\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\ATI TECHNOLOGIES\\ATI.ACE\\CORE-STATIC;C:\\PROGRAM FILES (X86)\\COMMON FILES\\LENOVO\\EASYPLUSSDK\\BIN;C:\\PROGRAM FILES (X86)\\LENOVO\\LENOVO HOME\\;C:\\PROGRAM FILES (X86)\\SKYPE\\PHONE\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;D:\\wamp\\MySQL\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\svn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\ComposerSetup;D:\\Git\\cmd;D:\\phpStudy\\php\\php-5.5.38\\'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2192'
+    'SCRIPT_NAME' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_URI' => '/12/yii2test/frontend/web/index.php?r=register%2Fregister3'
+    'QUERY_STRING' => 'r=register%2Fregister3'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '4891'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/12/yii2test/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'UM_distinctid=15f49263d0d290-049d97ae3db75e-3f65450e-100200-15f49263d0e170; CNZZDATA1585378=cnzz_eid%3D976228791-1508758951-%26ntime%3D1508758951; CNZZDATA5488951=cnzz_eid%3D2130234061-1508756853-%26ntime%3D1508756853; Hm_lvt_b88cfc1ccab788f0903cac38c894caa3=1508760764; pgv_pvid=6063116993; CNZZDATA155540=cnzz_eid%3D1250492819-1510970845-http%253A%252F%252F127.0.0.1%252F%26ntime%3D1510981648; advanced-frontend=3t44jba75pj3304qkpjik4nas3; _csrf-frontend=f16c12280948ec9115527ab7add47c72b7a79dbd91a6f7f0e4b5ed2d191aa6c9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-Xg5AmB4EpefJDFYDg93QeRrMhigbUjB%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://127.0.0.1/12/yii2test/frontend/web/index.php?r=register%2Fregister3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://127.0.0.1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_LENGTH' => '178'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/12/yii2test/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1512354704.2708
+    'REQUEST_TIME' => 1512354704
+]
