@@ -56,15 +56,15 @@ form span{
     <form action="<?php Url::to(['register/register'])?>" method='post'>
         <p>
             <span>手机号：</span>
-            <input type="text" placeholder="请输入手机号" name="phone" value="<?php if($arr) echo $arr['phone'];?>">
+            <input type="text" placeholder="请输入手机号" name="phone" value="<?= $arr['phone'];?>">
         </p>
         <p>
             <span>密码：</span>
-            <input type="password" placeholder="请输入密码" name="password" value="<?php if($arr) echo $arr['password']?>">
+            <input type="password" placeholder="请输入密码" name="password" value="<?= $arr['password']?>">
         </p>
         <p>
             <span>确认密码：</span>
-            <input type="password" placeholder="请输入确认密码" value="<?php if($arr) echo $arr['password']?>">
+            <input type="password" placeholder="请输入确认密码" value="<?= $arr['password']?>">
         </p>
         <p>
             <input type="submit" class="a_button" value="下一步">
